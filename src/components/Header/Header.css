@@ -1,9 +1,10 @@
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
     background-color: white;
+    position: sticky;
+    justify-content: space-between;
+    
     
   }
   
@@ -19,23 +20,26 @@ header {
   }
   
   .logo img {
-    height: 30px;
+    height: 50px;
    
   }
   
   .logo span {
-    font-size: 45px;
+    margin: 10px;
+    font-size: 35px;
     font-weight: bold;
     color: #0a6bff;
+    padding-right: 75px;
+    border-radius: 0.5em;
   }
   
   .header-left input {
-    padding: 8px 16px 8px 48px;
+    padding: 8px 100px 8px 15px;
     border-radius: 20px;
-    border: 1px solid #222121;
+    border: 1px solid #d5d5d5;
     outline: none;
     background-color: #fff ;
-    border-color: #fff;
+    
   }
   
   .header-icons {
@@ -46,17 +50,37 @@ header {
   .icon {
     margin: 0 10px;
     cursor: pointer;
+    transition: background-color 0.3s;
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+  }
+
+  .icon.active:hover {
+   border-color: #d2e3ff; 
   }
   
   .icon.active {
-    background-color: #f0f0f0;
-    border-radius: 50%;
+    
+    border-radius: 10px;
     padding: 5px;
+    
   }
   
   .header-right {
+   height: 30px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 35px;
     display: flex;
     align-items: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+  }
+
+    .header-right:hover {
+        border-color: #d2e3ff; 
   }
   
   .header-right .notification, .header-right .message, .header-right .profile {
@@ -69,3 +93,5 @@ header {
     height: 30px;
     border-radius: 50%;
     overflow: hidden;
+  }
+    

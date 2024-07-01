@@ -1,71 +1,74 @@
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: white;
-    
-  }
-  
-  .header-left {
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo {
-    display: flex;
-    align-items: center;
-    margin-right: 20px;
-  }
-  
-  .logo img {
-    height: 30px;
-   
-  }
-  
-  .logo span {
-    font-size: 45px;
-    font-weight: bold;
-    color: #0a6bff;
-  }
-  
-  .header-left input {
-    padding: 8px 16px 8px 48px;
-    border-radius: 20px;
-    border: 1px solid #222121;
-    outline: none;
-    background-color: #fff ;
-    border-color: #fff;
-  }
-  
-  .header-icons {
-    display: flex;
-    align-items: center;
-  }
-  
-  .icon {
-    margin: 0 10px;
-    cursor: pointer;
-  }
-  
-  .icon.active {
-    background-color: #f0f0f0;
-    border-radius: 50%;
-    padding: 5px;
-  }
-  
-  .header-right {
-    display: flex;
-    align-items: center;
-  }
-  
-  .header-right .notification, .header-right .message, .header-right .profile {
-    margin: 0 10px;
-    cursor: pointer;
-  }
-  
-  .header-right .profile .profile-picture {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.logo img {
+  height: 30px;
+
+}
+
+.logo span {
+  font-size: 45px;
+  font-weight: bold;
+  color: #0a6bff;
+}
+
+.header-left input {
+  padding: 8px 16px 8px 48px;
+  border-radius: 20px;
+  border: 1px solid #222121;
+  outline: none;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.icon.active {
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-right .notification,
+.header-right .message,
+.header-right .profile {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.header-right .profile .profile-picture {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}

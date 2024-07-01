@@ -1,0 +1,80 @@
+.UserPost__mainContainer {
+    width: 900px;
+    height: max-content;
+    margin-left: 20px;
+    background-color: #FFF;
+    margin-top: 10px;
+    padding: 25px;
+    border-radius: 17px;
+}
+
+.UserPost__Content__Upper {
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.UserPost__Content__Upper__icon {
+    width: 50px;
+    border-radius: 100%;
+    height: 50px;
+}
+
+.UserPost__Content__Upper__NameTime {
+    padding-left: 15px;
+}
+
+.UserPost__Content__Upper__NameTime__Name {
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.UserPost__Content__Upper__NameTime__Time {
+    margin: 0;
+    font-size: 14px;
+    color: gray;
+}
+
+.UserPost__Content__description__content {
+    display: flex;
+    flex-direction: column;
+    margin-block: 15px;
+}
+
+.UserPost__Content__description__text {
+    margin: 0;
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.UserPost__Content__description__seemore {
+    color: blue;
+}
+
+.UserPost__Content__image__container {
+    width: 100%;
+}
+
+.UserPost__Content__image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.UserPost__Content__Liked__container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.UserPost__Content__Liked{
+    width: 60px;
+}
+
+.UserPost__Content__Liked__count{
+    margin: 0;
+    margin-left: 10px;
+}
